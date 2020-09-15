@@ -42,6 +42,6 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [darwintnt.co](https://{darwintnt.co})
-- GitHub [@darwintnt](https://{github.com/darwintnt})
-- Twitter [@darwintnt](https://{twitter.com/darwintnt})
+- Website [darwintnt.co](https://darwintnt.co)
+- GitHub [@darwintnt](https://github.com/darwintnt)
+- Twitter [@darwintnt](https://twitter.com/darwintnt)
