@@ -24,7 +24,7 @@
 
 ## Overview
 
-![screenshot](/img/image_preview.png)
+![screenshot](/assets/image_preview.png)
 
 ### Built With
 
