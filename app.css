@@ -1,0 +1,133 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Space Mono', monospace;
+  min-height: 100vh;
+}
+
+.container {
+  width: 80vw;
+  min-height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  height: 80px;
+  padding: 20px 0;
+  justify-content: left;
+  align-items: center;
+}
+
+.header__logo {
+  font-family: 'Inconsolata', monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 25px;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.main__image {
+  width: 600px;
+}
+
+.main__text_title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 95px;
+  letter-spacing: -0.035em;
+  margin-bottom: .5em;
+  color: #333333;
+}
+
+.main__text_description {
+  margin-bottom: 2em;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.035em;
+  color: #4F4F4F;
+}
+
+.main__button {
+  font-family: 'Space Mono', monospace;
+  padding: 25px;
+  background: #333333;
+  color: #FFF;
+  border: 0;
+  cursor: pointer;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 21px;
+  letter-spacing: -0.035em;
+  width: 216px;
+  height: 68px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  height: 50px;
+}
+
+.footer__text {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #333333;
+}
+
+@media screen and (max-width: 576px) {
+
+  .main__text_title {
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: -0.035em;
+  }
+
+  .main__text_description {
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .main__image {
+    margin-bottom: 1.5em;
+  }
+
+  .main__image {
+    width: 300px;
+  }
+
+  .main {
+    flex-direction: column;
+  }
+
+  .main__button {
+    margin-bottom: 40px;
+  }
+}
